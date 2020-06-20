@@ -12,7 +12,7 @@
 // --------------------------------------------------
 
 export const Size = {
-    xxs: `.8rem`,
+    xxs: `8px`,
     xs: `1rem`,
     sm: `1.5rem`,
     md: `2.5rem`,
@@ -77,5 +77,9 @@ export const Border = {
 }
 
 export const BoxShadow = {
-    box: `0 1px 3px rgba(250, 250, 250, .12)`,
+    xs: ` 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)`,
+    sm: `0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)`,
+    md: `0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)`, 
+    lg: `0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);`,
+    xlg: `0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)` 
 }
