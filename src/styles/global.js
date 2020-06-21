@@ -173,7 +173,10 @@ input[type="search"]::-webkit-search-cancel-button {
 
 
 /*-------------*/
+/* CORES */
 
+
+/*-------------*/
 body {
     min-height: calc(100vh);
     -webkit-overflow-scrolling: touch;
