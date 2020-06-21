@@ -26,16 +26,16 @@ export const Size = {
 // --------------------------------------------------
 
 export const Color = {
-    white: `rgba(255, 255, 255, .9)`,
-    black: `rgba(15, 15, 15, .95)`,
-    whiteSolid: `#ffffff`,
-    blackSolid: `#000000`,
-    grayDarker: `#1d1d1d`,
-    grayDark: `#2d2d2d`,
-    gray: `#757575`,
-    grayLight: `#aaaaaa`,
-    grayLighter: `#efefef`,
+    white: `rgba(255, 255, 255, .9)`,    
+    whiteSolid: `#ffffff`,    
     grayWhite: `#f1f1f1`,
+    grayLighter: `#efefef`,
+    grayLight: `#aaaaaa`,    
+    gray: `#757575`,    
+    grayDark: `#2d2d2d`,
+    grayDarker: `#1d1d1d`,
+    black: `rgba(15, 15, 15, .95)`,
+    blackSolid: `#000000`,
 }
 
 // --------------------------------------------------
