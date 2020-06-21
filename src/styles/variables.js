@@ -30,15 +30,12 @@ export const Color = {
     black: `rgba(15, 15, 15, .95)`,
     whiteSolid: `#ffffff`,
     blackSolid: `#000000`,
-    blue: `#187888`,
-    blueLight: `#a1ecf7`,
     grayDarker: `#1d1d1d`,
     grayDark: `#2d2d2d`,
     gray: `#757575`,
     grayLight: `#aaaaaa`,
     grayLighter: `#efefef`,
     grayWhite: `#f1f1f1`,
-    yellow: `#e6af05`,
 }
 
 // --------------------------------------------------
@@ -69,11 +66,6 @@ export const Transition = {
 
 export const BorderRadius = {
     box: `2px`,
-}
-
-export const Border = {
-    box: `1px solid var(--borderColor)`,
-    default: `1px solid var(--borderColor)`,
 }
 
 export const BoxShadow = {
