@@ -5,13 +5,15 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     padding: ${V.Size.sm};
-
+    background-color: var(--bg-color);
+    color: var(--font-color);
     .group-toggle{
         margin: ${V.Size.xs};
     }
 
     em{
-        margin-right: ${V.Size.xs}
+        margin-right: ${V.Size.xs};
+        color: var(--primary-color);
     }
 `;
 
@@ -22,9 +24,5 @@ export const Card = styled.div`
     align-items: center;
     padding: ${V.Size.lg} ${V.Size.sm};
     width: 150px;
-    background: var(--bg);
-
-    h1{
-        color: var(--primary)
-    }
+    background: var(--heading-color);
 `

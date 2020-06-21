@@ -1,9 +1,20 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+
+/* CORES */
+:root {
+    --primary-color: ${props => props.theme.colors.primary};
+    --secondary-color: ${props => props.theme.colors.secondary};
+    --font-color: ${props => props.theme.colors.font};
+    --bg-color: ${props => props.theme.colors.bg};
+    --heading-color: ${props => props.theme.colors.heading};
+}
+/*-------------*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+    v2.0 | 20110126
+    License: none (public domain)
 */
 
 html,
@@ -170,11 +181,6 @@ input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none;
 }
-
-
-/*-------------*/
-/* CORES */
-
 
 /*-------------*/
 body {
