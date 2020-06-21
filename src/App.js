@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <ToggleButtom />
+      <DarkMode />
     </>
   );
 }
