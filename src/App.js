@@ -1,11 +1,9 @@
 import React from 'react';
-import Fetching from './components/fetching'
+import Routing from './components/routing'
 
 function App() {
   return (
-    <>
-      <Fetching />
-    </>
+    <Routing />
   );
 }
 
