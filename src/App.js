@@ -1,10 +1,10 @@
 import React from 'react';
-import DarkMode from './components/dark-mode'
+import Fetching from './components/fetching'
 
 function App() {
   return (
     <>
-      <DarkMode />
+      <Fetching />
     </>
   );
 }
